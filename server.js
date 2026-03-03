@@ -16,7 +16,7 @@ const app = express();
 //testing
 // Middleware
 const corsOptions = {
-    origin: ['https://karyana-store-frontend.vercel.app', 'http://localhost:5173', 'http://localhost:3000'],
+    origin: ['https://karyana-store-frontend.vercel.app', 'https://kashi-karyana-store.vercel.app', 'http://localhost:5173', 'http://localhost:3000'],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept'],
     credentials: true,
